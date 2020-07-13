@@ -1,0 +1,20 @@
+.ant-modal .ant-modal-footer{
+	text-align: center;
+}
+.ant-modal .ant-btn{
+	min-width: 90px;
+	width: auto;
+}
+.modal_main_box{
+	height: auto;
+	max-height: 500px;
+	overflow-y: auto;
+}
+.list_items{
+	width: 475px;
+}
+.introduce{
+	width: 475px;
+	height: auto;
+	display: block;
+}

@@ -1,0 +1,40 @@
+.ant-modal .ant-modal-footer{
+	text-align: center;
+}
+.ant-modal .ant-btn{
+	min-width: 90px;
+	width: auto;
+}
+.modal_main_box{
+	padding: 0 10px;
+}
+.list_item{
+	position: relative;
+	padding: 6px 0;
+	border-bottom: 1px solid #E2E2E2;
+}
+.avatar{
+	margin-right: 10px;
+}
+.avatar img{
+	display: block;
+	width: 48px;
+	height: 48px;
+}
+.info{
+	font-size: 13px;
+	line-height: 24px;
+}
+.info .master_name{
+	color: #000000;
+	font-size: 14px;
+}
+.connect_way span:first-child{
+	margin-right: 15px;
+}
+.checkd_box{
+	position: absolute;
+	right: 5px;
+	top: 50%;
+	transform: translateY(-50%);
+}

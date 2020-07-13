@@ -1,0 +1,11 @@
+.index_box{
+	height: 100%;
+	overflow: hidden;
+	padding-top: 60px;
+	position: relative;
+}
+.content_pneal{
+	height: 100%;
+	overflow: hidden;
+	overflow-y: auto;
+}

@@ -1,0 +1,68 @@
+.header_box{
+	width: 100%;
+	height: 60px;
+	background: #2F54EB;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 60px;
+	padding: 0 20px;
+	
+}
+.logo_box{
+	padding: 8px 0 8px 52px;
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	text-justify : auto; 
+	text-align:justify; 
+}
+.logo_box::before{
+	content: " ";
+	position: absolute;
+	left: 18px;
+	top: 50%;
+	transform: translateY(-50%);
+	display: block;
+	width: 42px;
+	height: 42px;
+	background: url(../../image/driver.png) no-repeat center;
+	background-size: 42px 42px;
+}
+.logo_box > span{
+	display: inline-block;
+	line-height: 22px;
+	height: 22px;
+}
+.logo_box > span:first-child{
+	display: inline-flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.logo_box > span:last-child{
+	font-size: 13px;
+}
+
+.user_name{
+	cursor: pointer;	
+}
+.logout{
+	position: absolute;
+	z-index: 1000;
+	padding: 0 10px;
+	background: #FFFFFF;
+	border: 1px solid #b6b6b6;
+	top: 42px;
+	right: 20px;
+	line-height: 30px;
+	height: 32px;
+	color: #555555;
+	font-size: 13px;
+	cursor: pointer;
+}
+.logout:hover{
+	border-color: #AAAAAA;
+	color: #333333;
+}

@@ -1,0 +1,45 @@
+.table_outer{
+	padding: 0 20px 8px;
+	background: #FFFFFF;
+	margin-top: 1px;
+}
+.table_outer .ant-table-thead{
+	background: #F1F1F1;
+	
+}
+.table_outer .ant-table-thead > tr > th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-weight: bold;
+}
+
+.table_outer .ant-table-tbody > tr > td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 13px;
+	max-width: 400px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.table_outer .ant-table-tbody .span_btn_group .span_btn{
+	color: #2F54EB;
+	display: inline-block;
+	margin-left: 20px;
+}
+.table_outer .ant-table-tbody .span_btn_group .span_btn.return_color{
+	color: #E02020;
+}
+.table_outer .ant-table-tbody .span_btn_group .span_btn.pass_color{
+	color: #41D400;
+}
+.table_outer .ant-table-tbody .span_btn_group .span_btn.default_color{
+	color: #666666;
+}
+.table_outer .ant-table-tbody .span_btn_group .span_btn:first-child{
+	margin-left: 0;
+}
+.table_outer .ant-table-tbody .span_btn_group .span_btn:hover{
+	opacity: 0.8;
+}
+	
